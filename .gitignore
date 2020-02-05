@@ -1,4 +1,4 @@
-/WECSIM_experimental
-/WECSIM_passive
+/WECSIM_experimental/*
+/WECSIM_passive/*
 /WEC-SIM-2.1
-!.slx
+!**/*.slx
