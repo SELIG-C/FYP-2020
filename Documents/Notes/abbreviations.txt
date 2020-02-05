@@ -1,0 +1,19 @@
+F_rad = Radiation force?
+
+External Fex = External Excitation Force
+
+F_rest = Restitution force?
+
+PTO_load = Power Take off load
+
+float_pos = float position
+
+float_vel = float velocity
+
+float connection points xyz = positions of the attachment points to the float?
+
+float_acc = float acceleration
+
+F_vis = Float something?
+
+Pto_Velocity = Power take off velocity

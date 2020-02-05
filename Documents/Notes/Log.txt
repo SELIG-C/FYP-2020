@@ -1,0 +1,14 @@
+04/02/2020
+I can make the float smash into the platform, so that's nice. 
+Just have to whack the damping constant way up in the passive model.
+Turning it down actually stops the simulation from running for some reason.
+
+As a guess if it goes too far above the surface the kinematics must completely 
+break down as centre of mass =/= centre of buoyancy in that case.
+
+05/02/2020
+
+Think the constraint thing can't be explained by centre of buoyancy stuff. 
+Errors indicate nastier bugs than that. At the end of the simulation the
+graphs that are automatically produced throw errors and go unlabeled/non-existant.
+Seems to be an issue with how 'legend' is used, could be a versioning issue.
