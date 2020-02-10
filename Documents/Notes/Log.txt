@@ -12,3 +12,53 @@ Think the constraint thing can't be explained by centre of buoyancy stuff.
 Errors indicate nastier bugs than that. At the end of the simulation the
 graphs that are automatically produced throw errors and go unlabeled/non-existant.
 Seems to be an issue with how 'legend' is used, could be a versioning issue.
+
+06/02/2020
+Ringwood paper says that the state vector is made of a 'reference velocity' based on
+wave excitation force. This can be perfectly known to begin with but will need
+kalman filter estimation etc. later.
+
+Have plugged the wave excitation force straight into the control system instead of the
+placeholder of zeros. The system runs and is wildly more unstable. Success! Now for some tuning?
+
+Qs for Andy:
+	How do I get a readout of things in the simulink file? Can I just shove an Oscilloscope on it
+	and run wecSim? How do I know what form they're in (matrix, vector, etc)
+	A: Run wecSim, then re-open model. Data is stored
+
+	wecSim can't output the charts it wants to at the end due to what I think is a versioning bug.
+	should I attempt to fix or is it superceded by the results plotter?
+
+	Am I right that reference velocity is External F_ex / some constant ? can I play with that for now?
+	A: Ref velocity in surge and heave, check ewtec paper. 
+	H(t) = radiation force transfer function (in radiation transfer func files, two files from Andy)
+
+	What does the desired behaviour look like?  It looks like it following the reference velocity (velocity and trajectory and velocity-trajectory are interchangable terms)
+	WecSim doesn't model the float ever breaking the surface. Rely on constraints (5m)
+	Make postprocessing that compares ref_velocity to float velocities. (probs only care about heave and surge for now)
+
+	Zi is the 'intrinsic impedance of the system'... wut?
+	A: Zi is the transfer function of the device (the Plant). described in the model and in Andy's papers.
+	Also in SSModel_calc. Will be a bit of work to create, potential source of study.
+
+
+	Can shorten sim time in wecSim input file. Full runs typically 700s (length of wave file). First 100s are waves being developed
+	and will be discarded for power analysis.
+
+IMPORTANT: 'bdclose' can be used in the CLI to clear simulink memory and allow a different model to be loaded.
+
+plot_output doesn't give float data, only F_ex data, which is invariant for different control schemes.
+
+two files from andy are continuous time transfer functions (numerators and denominators for 4th order freq. domain)
+could use with bode command, would give amp vs. freq. (vector of frequencies plus corresponding frequencies) multiply by 2, ^-1, that's the 1/2B(omega) = 1/H(t)
+MIND Hz =/= rads !
+
+Andy has already done EKF in his papers, need to select dominant frequency from vector of velocities against frequencies
+Take data out of wecSim to play with for speed? Build own model?
+
+For now: figure out what B is, and how to get a ref velocity trajectory out of it.
+Do it in a new simulink model, sin wave input (known frequency)
+
+10/02/2020
+Create a bode plot for each transfer function, create a lookup table with freq as input -> amplitude as output.
+Use eqn's (1/2B etc.) to create something that turns F_ex into reference velocities
