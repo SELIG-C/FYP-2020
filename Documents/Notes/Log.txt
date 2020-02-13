@@ -62,3 +62,23 @@ Do it in a new simulink model, sin wave input (known frequency)
 10/02/2020
 Create a bode plot for each transfer function, create a lookup table with freq as input -> amplitude as output.
 Use eqn's (1/2B etc.) to create something that turns F_ex into reference velocities
+
+13/02/2020
+Make sure lookup table amplitudes not in dB.
+
+ACTUALLY do 1/2B
+
+May be able to invert state space by converting to transfer functions
+ss2tf suitable
+
+Check responses using step input, match between freq domain and time domain versions.
+
+Read around a bit. Avoid improper transfer functions. Maybe try other approaches for completeness and viva-proofness.
+
+ss2tf is a relevant matlab function.
+
+Matlab has a rank function, there is a paper on the Left invertibility of SISO systems.
+
+Need to scale heave&surge transfer functions! See Andy email. Scale in the same way that SS_Model Calc does.
+
+
