@@ -10,3 +10,8 @@ Sub into {1}
 => x. = Ax + x. - A((C^-1)y)
 => Ax - A((C^-1)y) = 0
 => A[ x - (C^-1)y) ] = 0
+
+---
+
+x. = Ax + Bu
+y = Cx + Du

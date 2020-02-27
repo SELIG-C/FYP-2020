@@ -1,0 +1,12 @@
+figure(1)
+pzmap(SS_full(1,1))
+title('State-space Heave')
+xlim([-0.1,0])
+ylim([-1,1])
+%grid('on')
+
+figure(2)
+pzmap(SS_full(3,3))
+title('State-space Surge')
+xlim([-0.1,0])
+ylim([-1,1])

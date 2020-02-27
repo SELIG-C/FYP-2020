@@ -82,3 +82,82 @@ Matlab has a rank function, there is a paper on the Left invertibility of SISO s
 Need to scale heave&surge transfer functions! See Andy email. Scale in the same way that SS_Model Calc does.
 
 
+17/02/2020
+Do bode plot of tf2ss inverse funcs, check for stability.
+Get kalman block from kush.
+
+--SLOW DOWN-- document.
+
+Time delay MIMO method not a goner! Columns not rank.
+
+18/02/2020
+-ss2tf implementation was a buggy mess. Have done properly now. Simulink won't even accept improper TFs in a TF block, so previous TFs can't have been improper and were therefore wrong.
+-gotta ACTUALLY use ss2tf for it to be effective. Think I was just turning values in the SS matrix into tfs before lol. Put everything in inputfile.m (-> config.m?)
+-ss2tf works by unit impulse to one input (of our 6). Gives TFs for all outputs. Only took heave and surge since the rest are v. small, but there might be some use in taking cross terms.
+	-Andy says avoid cross terms at all costs.
+
+ERROR SIGNAL REDUCED BY PROPER TFs. (Doesn't decay though).
+
+With full implementation of the system the output velocity trajectory tracks the input velocity trajectory perfectly but at a smaller amplitude.
+
+Whacking a huge gain in there appears to fix this, but surely there has to be a better way? Some kind of scaling error is occuring maybe? Need to ask Andy.
+
+19/02/2020
+Things I tried:
+-Using PI control instead of filter (can't use D because it makes the TF improper)
+-tuning the filter so that the bode plot for the heave TF is steady above and below the break point.
+-flipping the sign of the summing junction around in the controller (negative/positive feedback??)
+
+Confirmed that there is a zero at 0,0 for a pzmap of the state space model (both heave and surge). Needs a pole to balance as per ringwood.
+
+bandpass filter is to take only resonant peak? Dunno.
+
+poles at -0.0313 +- 0.655j. hence zeroes at same points in inverse model. Need to balance? both have freq 0.655
+
+used bandass frequencies of 0.5 and 2pi based on bode break points. added a constant gain to the filter. Tuned it to 1.4. Success!
+
+Some kind of interaction between the 5s^2 and the 1.4 gain? Why didn't it behave the same when I tuned the 5?
+
+Scratch that it works the same.
+
+Summary for Andy: I've got this thing that seems to work ok, what's the justification behind what I did? What methodical tuning method should I use?
+Is the phase shift a problem?
+
+20/02/2020
+period range of interest: 6secs to 16 secs : 1 rad/s to ...
+
+period case of interest is mucked up by low pass filter maybe. Seems to be the case?
+
+Start a living document. Make a figure production script. Record stuff.
+
+Time to reorganise the files.
+
+26/02/2020
+Files re-organised, captured plots, wrote informal notes about filter design. Found design problems!
+It seems like the tracking is pretty good most of the time, but it seems like the frequency of the system is less than the frequency of the reference velocity?
+This isn't so bad at high frequencies but at low frequencies it's extremely bad.
+I'm not sure this can be explained by phase lag, the signals start perfectly in phase but then obvs have different frequencies.
+Is this just an effect of damping in the system? Can it be controlled for?
+
+Actually it might really be phase lag. This can be adjusted for by making the bandpass filter have a super steep phase gradient to counter the
+similarly steep phase switch of the plant.
+
+I think this will still result in a bunch of phase lag near the resonant peak, but maybe it can be brought way down. How far down is enough?
+
+Attempts and observations:
+First theory: making the average of the cut-off frequncies equal the resonant frequency should give optimal design. resonant frequancy roughly equals 0.2pi
+
+0 and 0.4pi:
+Low frequencies get a phase lag of -90, unacceptable. Phase not all that steep either.
+
+0.1pi and 0.3pi:
+Steeper attenutation and it does tend to 0 phase lag on both sides at least.
+
+0.19pi and 0.21pi
+Blrgh
+
+Andy had a look at the model and concluded that the lag is inevitable and unacceptable. Probably due to the high order of the SS_inverse transfer functions.
+
+27/02/2020
+
+I DID IT! LEFT SS INVERSE!
