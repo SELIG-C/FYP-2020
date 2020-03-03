@@ -1,9 +1,14 @@
+%Run SSModel_calc.m to populate workspace.
+SSModel_calc;
+
 %Specify the excitation force sinusoid
 seaWave.amp = 1e6;
-seaWave.freq = 0.2*pi;
+seaWave.freq = 0.4;
 
 %Calculate the lookup table values
 %Surge TF
+%According to this Matlab Answers page, bode returns absolute values, not
+%decibels: https://www.mathworks.com/matlabcentral/answers/90310-does-the-bode-function-automatically-converts-the-vector-points-into-decibels
 load tfsurge_04numden.mat
 surge.tf = tf(tfsurge_04num,tfsurge_04den);
 surge.tf = surge.tf/(1.424e7/2.91e5);
@@ -21,25 +26,10 @@ heave.amp = squeeze(heave.amp);
 heave.freq = squeeze(heave.freq);
 clear dummy
 
-%make inverse transfer functions for heave and surge via ss2tf:
-%den and num are switched in ss2tf line so the TF is already inverted
-[dummy.den, dummy.num] = ss2tf(SS_full.A,SS_full.B,SS_full.C,SS_full.D,3);
-dummy.den = dummy.den(3,:); %Just take the surge output TF
-invTF.surge = tf(dummy.num, dummy.den);
-clear dummy
+%Run discreteInverse to make the inverse SS.
+discreteInverse;
 
-%Heave TF(same process as surge)
-[dummy.den, dummy.num] = ss2tf(SS_full.A,SS_full.B,SS_full.C,SS_full.D,1);
-dummy.den = dummy.den(1,:); %Just take the heave output TF
-invTF.heave = tf(dummy.num, dummy.den);
-clear dummy
-
-%Simulink won't accept improper TF, so implement PI control:
-%Kp = 1
-%Ki = 1
-%Kd = 0 %any Kd will make the TF improper
-lowFreq = 0.1
-highFreq = 2*pi %assuming this is in rad/s ?
-filterK = tf([7, 0],[1, lowFreq+highFreq, lowFreq*highFreq]);
-invTF.heave = filterK*invTF.heave
-invTF.surge = filterK*invTF.surge
+%Due to discreteInverse being realisable in real time, the filter can be
+%anything! It has uncancelled zeroes at:
+%0.129 rads, 0.989+-0.128j for Heave
+%0.131 rads, 0.989+-0.13j for Surge (Discrete time pzmap)

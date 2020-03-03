@@ -161,3 +161,8 @@ Andy had a look at the model and concluded that the lag is inevitable and unacce
 27/02/2020
 
 I DID IT! LEFT SS INVERSE!
+
+Looking for good tracking, quantify error in terms of amplitude and phase error for each period/frequency of wave. (1 for heave and 1 for surge).
+This is a way to show all the system characteristics in 1 or 2 graphs.
+
+Capture process.
