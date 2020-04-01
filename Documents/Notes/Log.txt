@@ -166,3 +166,51 @@ Looking for good tracking, quantify error in terms of amplitude and phase error 
 This is a way to show all the system characteristics in 1 or 2 graphs.
 
 Capture process.
+
+20/3/2020
+Oof, haven't logged in nearly a month. That's bad. To be fair everything's been crazy.
+Did the presentation, got a first.
+Had the first assessor meeting, went very well. Notes on methodology.
+
+Implemented Kalman filter block, got it from Kush. Tracking is surprisingly good but falls short of extreme peaks. Perhaps that is desirable.
+A basic integration shows no sinking in position, instead it's all over the place, but the sample time is only 300s so it may be necessary to generate longer data.
+
+Generated some irregular wave data. Not comprehensive but enough to play around with. Full testing will come later and could be automated.
+
+Got a text from Andy explaining how the q parameter works. It's dense. Will need some time to comprehend. Obvs for my test model the tracking should be near perfect
+since the plant is the same state space model the IMC uses.
+
+Going to put my current control system into wecSim just to see what happens. Get a preliminary feel. Some kind of port dimension problem? A bit confusing since the output should be the same size as the input.
+
+L was set to 1 for some reason? Confusing. Fixed by re-running SSModel_Calc
+
+Model loads now, but the float doesn't move at all. V. odd
+
+24/03/2020
+-Produce weekly report for Andy.
+-Use the batch file for testing! Can run lots of wecSim instances with different sea-states 'Run_TDA.m'
+-Plot EKF Amplitude over actual Excitation Force. Send Andy this plot today.
+-3m restriction on surge, 5m restriction on heave. Andy's latest use.
+-0 mean method.
+-Use ODE-45 Runge-Kutta for state space model.
+
+26/03/2020
+Implemented constraints. System becomes massively unstable over time. Confusing! Why does this happen?
+The EKF amplitudes seem fine.This doesn't happen in the unconstrained version. What about adding the constraints has caused this instability??
+
+Would a filter fix it?
+
+Need to ask Andy.
+
+Might be taking the wrong amplitude for A-hat! Should probably take the one given by the adaptive law, not the output of the EKF.
+If this is the case could use PLL in place of EKF. Benefit is a maybe.
+
+27/03/2020
+All the bugs are due to the freaking time-steps.
+
+Places where time-steps exist (and should probably be centralised):
+
+-In the kalman filter code.
+-In the zero-order holds
+-In the input file
+-In the simulink environment

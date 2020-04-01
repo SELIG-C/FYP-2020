@@ -1,0 +1,15 @@
+
+WEC-Sim Read Input File ...   
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('h5readc')" style="font-weight:bold">h5readc</a>
+The filename specified was either not found on the MATLAB path or it contains unsupported characters.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('h5read', 'C:\Program Files\MATLAB\R2018b\toolbox\matlab\imagesci\h5read.m', 66)" style="font-weight:bold">h5read</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2018b\toolbox\matlab\imagesci\h5read.m',66,0)">line 66</a>)
+[data,var_class] = h5readc(Filename,Dataset,start,count,stride);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bodyClass/readH5File', 'C:\Users\user\Documents\FYP-2020\WEC-Sim-2.1\source\objects\bodyClass.m', 81)" style="font-weight:bold">bodyClass/readH5File</a> (<a href="matlab: opentoline('C:\Users\user\Documents\FYP-2020\WEC-Sim-2.1\source\objects\bodyClass.m',81,0)">line 81</a>)
+            obj.cg = h5read(filename,[name '/properties/cg']);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wecSim', 'C:\Users\user\Documents\FYP-2020\WEC-Sim-2.1\source\wecSim.m', 86)" style="font-weight:bold">wecSim</a> (<a href="matlab: opentoline('C:\Users\user\Documents\FYP-2020\WEC-Sim-2.1\source\wecSim.m',86,0)">line 86</a>)
+        body(ii).readH5File;
+} 
+wecSim
