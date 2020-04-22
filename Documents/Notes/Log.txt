@@ -214,3 +214,13 @@ Places where time-steps exist (and should probably be centralised):
 -In the zero-order holds
 -In the input file
 -In the simulink environment
+
+
+07/04
+-Check Bode plots
+-Check frequency units
+-Use Andy's tfs, see if it's a me problem
+-Don't need to add excitation force in wecSim, done outside controller (at PTOs)
+-Power generation = force*velocity (should be negative as force generally opposes velocity, power generated when force opposes velocity, lost when)
+-State space model forces -> velocities
+-Controller velocities ->forces

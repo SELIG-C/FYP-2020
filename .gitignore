@@ -1,4 +1,6 @@
 /WECSIM_experimental/*
 /WECSIM_passive/*
 /WEC-SIM-2.1
+/Andymodel/*
+/Passive Results/*
 !**/*.slx

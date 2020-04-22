@@ -1,0 +1,17 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}
+\contentsline {chapter}{\numberline {2}Literature Review}{10}
+\contentsline {chapter}{\numberline {3}Aims and Objectives}{13}
+\contentsline {chapter}{\numberline {4}Research Methodology}{14}
+\contentsline {chapter}{\numberline {5}Simple and Effective Control}{15}
+\contentsline {section}{\numberline {5.1}Simplifying assumptions}{15}
+\contentsline {section}{\numberline {5.2}Internal Model Control}{16}
+\contentsline {section}{\numberline {5.3}Discrete State Space Model}{16}
+\contentsline {section}{\numberline {5.4}Inverting the discrete state-space model}{16}
+\contentsline {section}{\numberline {5.5}Adaptive Controller}{19}
+\contentsline {section}{\numberline {5.6}Filtering Wave Excitation Force}{19}
+\contentsline {section}{\numberline {5.7}Velocity Constraints}{19}
+\contentsline {section}{\numberline {5.8}Integral Position control}{19}
+\contentsline {chapter}{\numberline {6}Results}{21}
+\contentsline {chapter}{\numberline {7}Discussion}{22}
+\contentsline {chapter}{\numberline {8}Conclusions}{23}
+\contentsline {section}{\numberline {8.1}Future Work}{23}
