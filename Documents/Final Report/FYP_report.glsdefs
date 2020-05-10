@@ -1,0 +1,240 @@
+\ifglsentryexists{WEC}{}%
+{%
+\gls@defglossaryentry{WEC}%
+{%
+name={WEC},%
+sort={WEC},%
+type={main},%
+first={WEC},%
+firstplural={WECs},%
+text={WEC},%
+plural={WECs},%
+description={Wave Energy Converter},%
+descriptionplural={Wave Energy Converter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IMC}{}%
+{%
+\gls@defglossaryentry{IMC}%
+{%
+name={IMC},%
+sort={IMC},%
+type={main},%
+first={IMC},%
+firstplural={IMCs},%
+text={IMC},%
+plural={IMCs},%
+description={Internal Model Control},%
+descriptionplural={Internal Model Control},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{DOF}{}%
+{%
+\gls@defglossaryentry{DOF}%
+{%
+name={DOF},%
+sort={DOF},%
+type={main},%
+first={DOF},%
+firstplural={DOFs},%
+text={DOF},%
+plural={DOFs},%
+description={Degree(s) of Freedom},%
+descriptionplural={Degree(s) of Freedom},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SISO}{}%
+{%
+\gls@defglossaryentry{SISO}%
+{%
+name={SISO},%
+sort={SISO},%
+type={main},%
+first={SISO},%
+firstplural={SISOs},%
+text={SISO},%
+plural={SISOs},%
+description={Single Input Single Output},%
+descriptionplural={Single Input Single Output},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MIMO}{}%
+{%
+\gls@defglossaryentry{MIMO}%
+{%
+name={MIMO},%
+sort={MIMO},%
+type={main},%
+first={MIMO},%
+firstplural={MIMOs},%
+text={MIMO},%
+plural={MIMOs},%
+description={Multiple Input Multiple Output},%
+descriptionplural={Multiple Input Multiple Output},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Plant}{}%
+{%
+\gls@defglossaryentry{Plant}%
+{%
+name={Plant},%
+sort={Plant},%
+type={main},%
+first={Plant},%
+firstplural={Plants},%
+text={Plant},%
+plural={Plants},%
+description={The physical system which is being controlled},%
+descriptionplural={The physical system which is being controlled},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MATLAB}{}%
+{%
+\gls@defglossaryentry{MATLAB}%
+{%
+name={MATLAB},%
+sort={MATLAB},%
+type={main},%
+first={MATLAB},%
+firstplural={MATLABs},%
+text={MATLAB},%
+plural={MATLABs},%
+description={Matrix Laboratory. A programming language and development environment specialised for the manipulation of matrices.},%
+descriptionplural={Matrix Laboratory. A programming language and development environment specialised for the manipulation of matrices.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Simulink}{}%
+{%
+\gls@defglossaryentry{Simulink}%
+{%
+name={Simulink},%
+sort={Simulink},%
+type={main},%
+first={Simulink},%
+firstplural={Simulinks},%
+text={Simulink},%
+plural={Simulinks},%
+description={A graphical programming environment based on MATLAB. Users manipulate dynamic systems by placing and connecting blocks.},%
+descriptionplural={A graphical programming environment based on MATLAB. Users manipulate dynamic systems by placing and connecting blocks.},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%

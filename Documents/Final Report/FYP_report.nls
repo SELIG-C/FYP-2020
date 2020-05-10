@@ -1,7 +1,13 @@
 
 \begin{thenomenclature} 
 \nomgroup{A}
-  \item [{$IMC$}]\begingroup Internal Model Control\nomeqref {0}\nompageref{4}
-  \item [{$WEC$}]\begingroup Wave Energy Converter\nomeqref {0}\nompageref{4}
+  \item [{$DOF$}]\begingroup Degree(s) of Freedom\nomeqref {0}\nompageref{6}
+  \item [{$IMC$}]\begingroup Internal Model Control\nomeqref {0}\nompageref{6}
+  \item [{$MATLAB$}]\begingroup Matrix Laboratory. A programming language and development environment specialised for the manipulation of matrices.\nomeqref {0}\nompageref{6}
+  \item [{$MIMO$}]\begingroup Multiple Input Multiple Output\nomeqref {0}\nompageref{6}
+  \item [{$Plant$}]\begingroup The physical system which is being controlled\nomeqref {0}\nompageref{6}
+  \item [{$Simulink$}]\begingroup A graphical programming environment based on MATLAB. Users manipulate dynamic systems by placing and connecting blocks.\nomeqref {0}\nompageref{6}
+  \item [{$SISO$}]\begingroup Single Input Single Output\nomeqref {0}\nompageref{6}
+  \item [{$WEC$}]\begingroup Wave Energy Converter\nomeqref {0}\nompageref{6}
 
 \end{thenomenclature}

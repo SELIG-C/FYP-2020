@@ -1,17 +1,24 @@
-\contentsline {chapter}{\numberline {1}Introduction}{7}
-\contentsline {chapter}{\numberline {2}Literature Review}{10}
-\contentsline {chapter}{\numberline {3}Aims and Objectives}{13}
-\contentsline {chapter}{\numberline {4}Research Methodology}{14}
-\contentsline {chapter}{\numberline {5}Simple and Effective Control}{15}
-\contentsline {section}{\numberline {5.1}Simplifying assumptions}{15}
-\contentsline {section}{\numberline {5.2}Internal Model Control}{16}
-\contentsline {section}{\numberline {5.3}Discrete State Space Model}{16}
-\contentsline {section}{\numberline {5.4}Inverting the discrete state-space model}{16}
-\contentsline {section}{\numberline {5.5}Adaptive Controller}{19}
-\contentsline {section}{\numberline {5.6}Filtering Wave Excitation Force}{19}
-\contentsline {section}{\numberline {5.7}Velocity Constraints}{19}
-\contentsline {section}{\numberline {5.8}Integral Position control}{19}
-\contentsline {chapter}{\numberline {6}Results}{21}
-\contentsline {chapter}{\numberline {7}Discussion}{22}
-\contentsline {chapter}{\numberline {8}Conclusions}{23}
-\contentsline {section}{\numberline {8.1}Future Work}{23}
+\contentsline {chapter}{\numberline {1}Introduction}{8}
+\contentsline {chapter}{\numberline {2}Literature Review}{11}
+\contentsline {chapter}{\numberline {3}Aims and Objectives}{14}
+\contentsline {chapter}{\numberline {4}Research Methodology}{15}
+\contentsline {section}{\numberline {4.1}Positivism and Simulation}{15}
+\contentsline {section}{\numberline {4.2}Equipment}{16}
+\contentsline {chapter}{\numberline {5}Simple and Effective Control}{17}
+\contentsline {section}{\numberline {5.1}Simplifying assumptions}{19}
+\contentsline {section}{\numberline {5.2}Internal Model Control}{19}
+\contentsline {section}{\numberline {5.3}Inverting the state-space model}{20}
+\contentsline {section}{\numberline {5.4}Adaptive law}{23}
+\contentsline {section}{\numberline {5.5}Filtering Wave Excitation Force}{24}
+\contentsline {section}{\numberline {5.6}Constraints Handling}{24}
+\contentsline {section}{\numberline {5.7}Integral feedback}{25}
+\contentsline {chapter}{\numberline {6}Results}{27}
+\contentsline {section}{\numberline {6.1}Difficulties with the WecSim environment}{27}
+\contentsline {section}{\numberline {6.2}Tracking Performance}{28}
+\contentsline {section}{\numberline {6.3}Power Comparison}{28}
+\contentsline {chapter}{\numberline {7}Discussion}{31}
+\contentsline {chapter}{\numberline {8}Conclusions}{32}
+\contentsline {section}{\numberline {8.1}Future Work}{32}
+\contentsline {chapter}{Appendices}{36}
+\contentsline {chapter}{\numberline {A}Radiation force Transfer Functions}{36}
+\contentsline {chapter}{\numberline {B}Project code: inputFile.m}{37}

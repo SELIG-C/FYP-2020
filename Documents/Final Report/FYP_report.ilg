@@ -7,8 +7,8 @@ Scanning style file C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/makeindex/no
 ** Input style error (file = C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/makeindex/nomencl/nomencl.ist, line = 38):
    -- Unknown specifier lethead_flag.
 ....done (12 attributes redefined, 3 ignored).
-Scanning input file FYP_report.nlo....done (2 entries accepted, 0 rejected).
-Sorting entries....done (2 comparisons).
-Generating output file FYP_report.nls....done (7 lines written, 0 warnings).
+Scanning input file FYP_report.nlo....done (8 entries accepted, 0 rejected).
+Sorting entries....done (27 comparisons).
+Generating output file FYP_report.nls....done (13 lines written, 0 warnings).
 Output written in FYP_report.nls.
 Transcript written in FYP_report.ilg.

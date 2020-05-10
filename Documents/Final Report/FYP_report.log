@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.7)  21 APR 2020 20:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.7)  9 MAY 2020 21:53
 entering extended mode
 **./FYP_report.tex
 (FYP_report.tex
@@ -123,6 +123,49 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box28
 \rot@mess@toks=\toks20
 )
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\appendix\appendix.s
+ty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count101
+\c@@ppsavesec=\count102
+\c@@ppsaveapp=\count103
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mathtools
+.sty"
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+ ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count104
+\calc@Bcount=\count105
+\calc@Adimen=\dimen114
+\calc@Bdimen=\dimen115
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count106
+\calc@Cskip=\skip50
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mathtools\mhsetup.s
+ty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count107
+\l_MT_multwidth_dim=\dimen116
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen117
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen118
+\l_MT_above_intertext_sep=\dimen119
+\l_MT_below_intertext_sep=\dimen120
+\l_MT_above_shortintertext_sep=\dimen121
+\l_MT_below_shortintertext_sep=\dimen122
+\xmathstrut@box=\box29
+\xmathstrut@dim=\dimen123
+)
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty
 "
 Package: nomencl 2020/03/01 v5.4 Nomenclature package
@@ -138,7 +181,7 @@ tex"
 \XKV@toks=\toks21
 \XKV@tempa@toks=\toks22
 )
-\XKV@depth=\count101
+\XKV@depth=\count108
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\tocbasi
@@ -154,49 +197,61 @@ basics and keyval usage)
 e.sty"
 Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
 ))
-\scr@dte@tocline@numberwidth=\skip48
-\scr@dte@tocline@numbox=\box29
+\scr@dte@tocline@numberwidth=\skip52
+\scr@dte@tocline@numbox=\box30
 )
 Package tocbasic Info: setting babel extension for `nlo' on input line 179.
 Package tocbasic Info: setting babel extension for `nls' on input line 180.
-\nomlabelwidth=\dimen114
-\nom@tempdim=\dimen115
-\nomitemsep=\skip49
+\nomlabelwidth=\dimen124
+\nom@tempdim=\dimen125
+\nomitemsep=\skip53
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.s
+ty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count109
+\multirow@dima=\skip55
+\bigstrutjot=\dimen126
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placeins.s
+ty"
+Package: placeins 2005/04/18  v 2.2
 )
 \@nomenclaturefile=\write3
 \openout3 = `FYP_report.nlo'.
 
-Package nomencl Info: Writing nomenclature file FYP_report.nlo on input line 8.
-
+Package nomencl Info: Writing nomenclature file FYP_report.nlo on input line 12
+.
  (FYP_report.aux)
 \openout1 = `FYP_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
 i"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count102
-\scratchdimen=\dimen116
-\scratchbox=\box30
-\nofMPsegments=\count103
-\nofMParguments=\count104
+\scratchcounter=\count110
+\scratchdimen=\dimen127
+\scratchbox=\box31
+\nofMPsegments=\count111
+\nofMParguments=\count112
 \everyMPshowfont=\toks23
-\MPscratchCnt=\count105
-\MPscratchDim=\dimen117
-\MPnumerator=\count106
-\makeMPintoPDFobject=\count107
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen128
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
 \everyMPtoPDFconversion=\toks24
 )
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
@@ -270,13 +325,13 @@ Package epstopdf Info: Source file: <graphics/logo.eps>
 (epstopdf)                    size: 21710 bytes
 (epstopdf)             Command: <epstopdf --outfile=graphics/logo-eps-converted
 -to.pdf graphics/logo.eps>
-(epstopdf)             \includegraphics on input line 13.
+(epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 <graphics/logo-eps-converted-to.pdf, id=1, 73.27374pt x 73.27374pt>
 File: graphics/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics/logo-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/logo-eps-converted-to.pdf  used on input line
- 13.
+ 17.
 (pdftex.def)             Requested size: 86.25pt x 86.2498pt.
  [1
 
@@ -288,124 +343,51 @@ ogo-eps-converted-to.pdf>] [1] [1] (FYP_report.toc [2
 \openout4 = `FYP_report.toc'.
 
  [3]
-(FYP_report.lof
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-)
+(FYP_report.lof)
 \tf@lof=\write5
 \openout5 = `FYP_report.lof'.
 
  [4
 
-] (FYP_report.lot)
+] [5] (FYP_report.lot)
 \tf@lot=\write6
 \openout6 = `FYP_report.lot'.
 
- (FYP_report.nls [5
+ (FYP_report.nls [6
 
-]) [6
+]) [7
 
 ]
 Chapter 1.
-<graphics/waveSub.png, id=37, 396.7322pt x 328.22626pt>
+<graphics/waveSub.png, id=41, 396.7322pt x 328.22626pt>
 File: graphics/waveSub.png Graphic file (type png)
 <use graphics/waveSub.png>
-Package pdftex.def Info: graphics/waveSub.png  used on input line 61.
+Package pdftex.def Info: graphics/waveSub.png  used on input line 77.
 (pdftex.def)             Requested size: 166.80193pt x 137.9979pt.
-<graphics/wecSimFloat.png, id=39, 445.665pt x 542.025pt>
+<graphics/wecSimFloat.png, id=43, 445.665pt x 542.025pt>
 File: graphics/wecSimFloat.png Graphic file (type png)
 <use graphics/wecSimFloat.png>
-Package pdftex.def Info: graphics/wecSimFloat.png  used on input line 62.
+Package pdftex.def Info: graphics/wecSimFloat.png  used on input line 78.
 (pdftex.def)             Requested size: 113.46286pt x 137.9979pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-[7
+[8
 
 ]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [8 <./graphics/waveSub.png> <./graphics/wecSimFloat.png>] [9]
+ [9 <./graphics/waveSub.png> <./graphics/wecSimFloat.png>] [10]
 Chapter 2.
-<graphics/duck.png, id=52, 503.63156pt x 476.53032pt>
+<graphics/duck.png, id=56, 503.63156pt x 476.53032pt>
 File: graphics/duck.png Graphic file (type png)
 <use graphics/duck.png>
-Package pdftex.def Info: graphics/duck.png  used on input line 85.
+Package pdftex.def Info: graphics/duck.png  used on input line 101.
 (pdftex.def)             Requested size: 125.90758pt x 119.13228pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-[10
+[11
 
 ]
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ó in font cmr10!
- [11 <./graphics/duck.png>]
+ [12 <./graphics/duck.png>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -438,76 +420,134 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [12]
+ [13]
 Chapter 3.
-[13
-
-]
-Chapter 4.
 [14
 
 ]
+Chapter 4.
+[15
+
+] [16]
 Chapter 5.
-<graphics/fullControlSystem.png, id=70, 1115.96925pt x 284.262pt>
+
+LaTeX Warning: Reference `section: assumptions' on page 17 undefined on input l
+ine 164.
+
+<graphics/dimensionsPic.jpg, id=77, 198.90239pt x 157.9707pt>
+File: graphics/dimensionsPic.jpg Graphic file (type jpg)
+<use graphics/dimensionsPic.jpg>
+Package pdftex.def Info: graphics/dimensionsPic.jpg  used on input line 169.
+(pdftex.def)             Requested size: 198.90189pt x 157.9703pt.
+<graphics/fullControlSystem.png, id=78, 758.23276pt x 208.98074pt>
 File: graphics/fullControlSystem.png Graphic file (type png)
 <use graphics/fullControlSystem.png>
-Package pdftex.def Info: graphics/fullControlSystem.png  used on input line 141
+Package pdftex.def Info: graphics/fullControlSystem.png  used on input line 178
 .
-(pdftex.def)             Requested size: 557.98326pt x 142.13065pt.
+(pdftex.def)             Requested size: 454.94316pt x 125.3894pt.
 
-Overfull \hbox (7.98326pt too wide) in paragraph at lines 141--142
+Overfull \hbox (55.25987pt too wide) in paragraph at lines 177--179
+[]  [] 
+ []
+
+[17
+
+] [18 <./graphics/dimensionsPic.jpg> <./graphics/fullControlSystem.png>]
+File: graphics/fullControlSystem.png Graphic file (type png)
+<use graphics/fullControlSystem.png>
+Package pdftex.def Info: graphics/fullControlSystem.png  used on input line 204
+.
+(pdftex.def)             Requested size: 379.11545pt x 104.49011pt.
+
+Overfull \hbox (34.11545pt too wide) in paragraph at lines 204--205
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15
+[19
 
 ]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 167.
+Overfull \hbox (6.86171pt too wide) in paragraph at lines 220--221
+[]\OT1/cmr/m/n/10 The Massey-Sain al-go-rithm was first pre-sented by Sain and 
+Mas-say in 1969[[]].
+ []
 
- ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 167.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [16]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
+[20]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ¶ in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
 
-Overfull \hbox (38.73146pt too wide) detected at line 240
+Overfull \hbox (38.73146pt too wide) detected at line 287
 [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\O
 T1/cmr/m/n/10 ) + [] []
  []
 
-[17] [18] [19] [20 <./graphics/fullControlSystem.png>]
+[21]
+<graphics/inverseSS.png, id=100, 479.99326pt x 210.18526pt>
+File: graphics/inverseSS.png Graphic file (type png)
+<use graphics/inverseSS.png>
+Package pdftex.def Info: graphics/inverseSS.png  used on input line 359.
+(pdftex.def)             Requested size: 239.99603pt x 105.09236pt.
+ [22]
+
+LaTeX Warning: Reference `fig:adaptiveLawsimulink' on page 23 undefined on inpu
+t line 384.
+
+[23 <./graphics/inverseSS.png>] [24] [25] [26]
 Chapter 6.
-[21
+[27
 
 ]
+
+LaTeX Warning: Citation `AndyMPC' on page 28 undefined on input line 502.
+
+[28]
+
+LaTeX Warning: Reference `EKF' on page 29 undefined on input line 510.
+
+
+LaTeX Warning: Reference `passiveResults' on page 29 undefined on input line 51
+2.
+
+<tables/passiveResults.png, id=125, 651.03226pt x 294.50024pt>
+File: tables/passiveResults.png Graphic file (type png)
+<use tables/passiveResults.png>
+Package pdftex.def Info: tables/passiveResults.png  used on input line 517.
+(pdftex.def)             Requested size: 455.71947pt x 206.14876pt.
+
+Overfull \hbox (27.58342pt too wide) in paragraph at lines 516--518
+[]  [] 
+ []
+
+<tables/integralControlResults.png, id=126, 655.85025pt x 294.50024pt>
+File: tables/integralControlResults.png Graphic file (type png)
+<use tables/integralControlResults.png>
+Package pdftex.def Info: tables/integralControlResults.png  used on input line 
+523.
+(pdftex.def)             Requested size: 459.09204pt x 206.14876pt.
+
+Overfull \hbox (30.956pt too wide) in paragraph at lines 522--524
+[]  [] 
+ []
+
+<tables/integralControlPercent.png, id=127, 702.82574pt x 311.36325pt>
+File: tables/integralControlPercent.png Graphic file (type png)
+<use tables/integralControlPercent.png>
+Package pdftex.def Info: tables/integralControlPercent.png  used on input line 
+529.
+(pdftex.def)             Requested size: 491.97466pt x 217.95279pt.
+
+Overfull \hbox (63.83861pt too wide) in paragraph at lines 528--530
+[]  [] 
+ []
+
+[29 <./tables/passiveResults.png>] [30 <./tables/integralControlResults.png> <.
+/tables/integralControlPercent.png>]
 Chapter 7.
-[22
+[31
 
 ]
 Chapter 8.
-(FYP_report.bbl [23
+(FYP_report.bbl [32
 
 ]
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
@@ -528,6 +568,9 @@ Chapter 8.
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `en'. Using the pattern for
 ** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
@@ -540,39 +583,64 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-) [24
 
-] (FYP_report.aux) ) 
+Overfull \hbox (4.52869pt too wide) in paragraph at lines 76--82
+\OT1/cmr/m/n/10 https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/JZ069i0
+24p05181 
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[33
+
+]) [34] [35
+
+]
+Appendix A.
+[36
+
+]
+Appendix B.
+[37
+
+] (FYP_report.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 3214 strings out of 493303
- 49504 string characters out of 3130220
- 142934 words of memory out of 3000000
- 6698 multiletter control sequences out of 15000+200000
+ 3985 strings out of 493303
+ 63326 string characters out of 3130220
+ 157740 words of memory out of 3000000
+ 7444 multiletter control sequences out of 15000+200000
  8113 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,9n,41p,1944b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/user/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/
-user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/user/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/u
-ser/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
-><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmti12.pfb>
-Output written on FYP_report.pdf (26 pages, 652119 bytes).
+ 51i,9n,41p,1938b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/user/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/user/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/user/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/U
+sers/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/user/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/user/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/User
+s/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
+pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmti12.pfb>
+Output written on FYP_report.pdf (39 pages, 937780 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 207 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

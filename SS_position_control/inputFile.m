@@ -1,8 +1,9 @@
 %Run SSModel_calc.m to populate workspace.
 SSModel_calc;
+load('FEX_samples/FEX_8_6.mat') %Grab a demo FEX sample. Comment out if running batch process.
 
 %Specify the excitation force sinusoid
-% seaWave.amp = 1e6;
+% seaWave.amp = 1e6;s
 % seaWave.freq = 0.4;
 
 %Calculate the lookup table values

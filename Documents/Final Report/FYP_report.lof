@@ -1,11 +1,23 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A graphic of an array of 9 WaveSub devices(left)\cite {waveSub} versus the modelled WEC(right). Note that cable arms exist in the left figure but are absent in the right due to divergent design.}}{8}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A graphic of an array of 9 WaveSub devices(left)\cite {waveSub} versus the modelled WEC(right). Note that cable arms exist in the left figure but are absent in the right due to divergent design.}}{9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A reproduction of a figure from “Wave Power,”\cite {salterDuck}. “a. vane; b, a hollow cylindrical member; c, paraxial ridges; d, inward facing ridges on the vane; e, vertical fin between this vane and the next.”}}{11}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A reproduction of a figure from ``Wave Power,''\cite {salterDuck}. ``a. vane; b, a hollow cylindrical member; c, paraxial ridges; d, inward facing ridges on the vane; e, vertical fin between this vane and the next.''}}{12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The full implementation of simple and Effective Control for the WaveSub device.}}{20}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The 6 degrees of freedom relative to a boat. For the modelled float shown in figure 1\hbox {} the Yaw axis ($y$) is coincident with the cylindrical axis of the float. Figure reproduced from ``Deepwater Drilling''\cite {dimensionsPic}.}}{18}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The full implementation of simple and Effective Control for the WaveSub device.}}{18}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces IMC implementation using an inverted state space model.}}{20}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The inverted state space model with the a one time-step input delay.}}{23}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bode plots of the Surge and Heave radiation force transfer functions. Created using the Simulink bode plot block.}}{24}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The fully implemented adaptive filter in the Simulink environment.}}{24}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{24}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{25}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{25}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces }}{26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces A plot of Velocity over time of the float as simulated in WecSim. Only the first few seconds are available as the system is unstable and violates physical constraints quickly.}}{27}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
