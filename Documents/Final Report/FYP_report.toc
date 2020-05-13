@@ -29,6 +29,7 @@
 \contentsline {section}{\numberline {8.1}Future Work}{56}
 \contentsline {chapter}{Appendices}{60}
 \contentsline {chapter}{\numberline {A}Radiation force Transfer Functions}{60}
-\contentsline {chapter}{\numberline {B}Project code: inputFile.m}{61}
-\contentsline {chapter}{\numberline {C}EKF Code}{62}
-\contentsline {chapter}{\numberline {D}Github Link}{63}
+\contentsline {chapter}{\numberline {B}Project code: inputFile.m - Written by Author}{61}
+\contentsline {chapter}{\numberline {C}Project code: SSModel\_calc.m - Written by A. Hillis}{63}
+\contentsline {chapter}{\numberline {D}EKF Code - Written by A. Hillis}{70}
+\contentsline {chapter}{\numberline {E}Github Link}{72}

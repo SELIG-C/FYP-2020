@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.7)  13 MAY 2020 02:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.3.7)  13 MAY 2020 02:47
 entering extended mode
 **./FYP_report.tex
 (FYP_report.tex
@@ -218,45 +218,180 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 ty"
 Package: placeins 2005/04/18  v 2.2
 )
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.
+cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.s
+ty"
+\lst@mode=\count110
+\lst@gtempboxa=\box31
+\lst@token=\toks23
+\lst@length=\count111
+\lst@currlwidth=\dimen127
+\lst@column=\count112
+\lst@pos=\count113
+\lst@lostspace=\dimen128
+\lst@width=\dimen129
+\lst@newlines=\count114
+\lst@lineno=\count115
+\lst@maxwidth=\dimen130
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstmisc.st
+y"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count116
+\lst@skipnumbers=\count117
+\lst@framebox=\box32
+)
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.c
+fg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.s
+ty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
 \@nomenclaturefile=\write3
 \openout3 = `FYP_report.nlo'.
 
-Package nomencl Info: Writing nomenclature file FYP_report.nlo on input line 12
+Package nomencl Info: Writing nomenclature file FYP_report.nlo on input line 34
 .
- (FYP_report.aux
-
-LaTeX Warning: Label `integralPosition' multiply defined.
-
-)
+ (FYP_report.aux)
 \openout1 = `FYP_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 36.
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 36.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mki
 i"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen127
-\scratchbox=\box31
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen128
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count118
+\scratchdimen=\dimen131
+\scratchbox=\box33
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen132
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
+\everyMPtoPDFconversion=\toks25
 )
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-b
 ase.sty"
@@ -321,6 +456,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+\c@lstlisting=\count124
 Package epstopdf Info: Source file: <graphics/logo.eps>
 (epstopdf)                    date: 2020-04-09 16:58:01
 (epstopdf)                    size: 50221 bytes
@@ -329,18 +465,18 @@ Package epstopdf Info: Source file: <graphics/logo.eps>
 (epstopdf)                    size: 21710 bytes
 (epstopdf)             Command: <epstopdf --outfile=graphics/logo-eps-converted
 -to.pdf graphics/logo.eps>
-(epstopdf)             \includegraphics on input line 17.
+(epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
 <graphics/logo-eps-converted-to.pdf, id=1, 73.27374pt x 73.27374pt>
 File: graphics/logo-eps-converted-to.pdf Graphic file (type pdf)
 <use graphics/logo-eps-converted-to.pdf>
 Package pdftex.def Info: graphics/logo-eps-converted-to.pdf  used on input line
- 17.
+ 39.
 (pdftex.def)             Requested size: 86.25pt x 86.2498pt.
  [1
 
 {C:/Users/user/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./graphics/l
-ogo-eps-converted-to.pdf>] [1] [1] [1] (FYP_report.toc [2
+ogo-eps-converted-to.pdf>] [1] [1] (FYP_report.toc [2
 
 ])
 \tf@toc=\write4
@@ -369,50 +505,50 @@ e(bottom)
 
 ]
 Chapter 1.
-<graphics/pelamis.jpg, id=45, 560.0925pt x 171.64125pt>
+<graphics/pelamis.jpg, id=42, 560.0925pt x 171.64125pt>
 File: graphics/pelamis.jpg Graphic file (type jpg)
 <use graphics/pelamis.jpg>
-Package pdftex.def Info: graphics/pelamis.jpg  used on input line 87.
+Package pdftex.def Info: graphics/pelamis.jpg  used on input line 109.
 (pdftex.def)             Requested size: 225.15259pt x 68.99895pt.
-<graphics/oyster.jpg, id=46, 224.037pt x 68.8974pt>
+<graphics/oyster.jpg, id=43, 224.037pt x 68.8974pt>
 File: graphics/oyster.jpg Graphic file (type jpg)
 <use graphics/oyster.jpg>
-Package pdftex.def Info: graphics/oyster.jpg  used on input line 88.
+Package pdftex.def Info: graphics/oyster.jpg  used on input line 110.
 (pdftex.def)             Requested size: 224.38853pt x 68.99895pt.
 [8
 
 ]
-<graphics/waveSub.png, id=50, 396.7322pt x 328.22626pt>
+<graphics/waveSub.png, id=47, 396.7322pt x 328.22626pt>
 File: graphics/waveSub.png Graphic file (type png)
 <use graphics/waveSub.png>
-Package pdftex.def Info: graphics/waveSub.png  used on input line 105.
+Package pdftex.def Info: graphics/waveSub.png  used on input line 127.
 (pdftex.def)             Requested size: 166.80193pt x 137.9979pt.
-<graphics/wecSimFloat.png, id=52, 445.665pt x 542.025pt>
+<graphics/wecSimFloat.png, id=49, 445.665pt x 542.025pt>
 File: graphics/wecSimFloat.png Graphic file (type png)
 <use graphics/wecSimFloat.png>
-Package pdftex.def Info: graphics/wecSimFloat.png  used on input line 106.
+Package pdftex.def Info: graphics/wecSimFloat.png  used on input line 128.
 (pdftex.def)             Requested size: 113.46286pt x 137.9979pt.
  [9 <./graphics/pelamis.jpg> <./graphics/oyster.jpg>]
-<graphics/ringwoodBlockDiagram.png, id=56, 466.74374pt x 263.48438pt>
+<graphics/ringwoodBlockDiagram.png, id=53, 466.74374pt x 263.48438pt>
 File: graphics/ringwoodBlockDiagram.png Graphic file (type png)
 <use graphics/ringwoodBlockDiagram.png>
 Package pdftex.def Info: graphics/ringwoodBlockDiagram.png  used on input line 
-120.
+142.
 (pdftex.def)             Requested size: 244.46725pt x 137.9979pt.
  [10 <./graphics/waveSub.png> <./graphics/wecSimFloat.png>] [11 <./graphics/rin
 gwoodBlockDiagram.png>]
 Chapter 2.
-<graphics/duck.png, id=67, 503.63156pt x 476.53032pt>
+<graphics/duck.png, id=64, 503.63156pt x 476.53032pt>
 File: graphics/duck.png Graphic file (type png)
 <use graphics/duck.png>
-Package pdftex.def Info: graphics/duck.png  used on input line 135.
+Package pdftex.def Info: graphics/duck.png  used on input line 157.
 (pdftex.def)             Requested size: 125.90758pt x 119.13228pt.
 [12
 
 ] [13 <./graphics/duck.png>] [14]
 Chapter 3.
 
-Overfull \hbox (5.22282pt too wide) in paragraph at lines 176--177
+Overfull \hbox (5.22282pt too wide) in paragraph at lines 198--199
 []\OT1/cmr/m/n/10 Implement the adap-tive law of the Sim-ple and Ef-fec-tive co
 n-trol method
  []
@@ -427,21 +563,21 @@ Chapter 4.
 Chapter 5.
 
 LaTeX Warning: Reference `section: assumptions' on page 19 undefined on input l
-ine 212.
+ine 234.
 
-<graphics/dimensionsPic.jpg, id=92, 198.90239pt x 157.9707pt>
+<graphics/dimensionsPic.jpg, id=89, 198.90239pt x 157.9707pt>
 File: graphics/dimensionsPic.jpg Graphic file (type jpg)
 <use graphics/dimensionsPic.jpg>
-Package pdftex.def Info: graphics/dimensionsPic.jpg  used on input line 217.
+Package pdftex.def Info: graphics/dimensionsPic.jpg  used on input line 239.
 (pdftex.def)             Requested size: 198.90189pt x 157.9703pt.
-<graphics/fullControlSystem.png, id=93, 948.54375pt x 258.36525pt>
+<graphics/fullControlSystem.png, id=90, 948.54375pt x 258.36525pt>
 File: graphics/fullControlSystem.png Graphic file (type png)
 <use graphics/fullControlSystem.png>
-Package pdftex.def Info: graphics/fullControlSystem.png  used on input line 225
+Package pdftex.def Info: graphics/fullControlSystem.png  used on input line 247
 .
 (pdftex.def)             Requested size: 569.13065pt x 155.02034pt.
 
-Overfull \hbox (169.44736pt too wide) in paragraph at lines 224--226
+Overfull \hbox (169.44736pt too wide) in paragraph at lines 246--248
 []  [] 
  []
 
@@ -451,18 +587,18 @@ Overfull \hbox (169.44736pt too wide) in paragraph at lines 224--226
 [21
 
 ]
-<graphics/IMC.png, id=104, 797.379pt x 237.88875pt>
+<graphics/IMC.png, id=101, 797.379pt x 237.88875pt>
 File: graphics/IMC.png Graphic file (type png)
 <use graphics/IMC.png>
-Package pdftex.def Info: graphics/IMC.png  used on input line 257.
+Package pdftex.def Info: graphics/IMC.png  used on input line 279.
 (pdftex.def)             Requested size: 398.68852pt x 118.94408pt.
 
-Overfull \hbox (53.68852pt too wide) in paragraph at lines 256--258
+Overfull \hbox (53.68852pt too wide) in paragraph at lines 278--280
  [] 
  []
 
 [22 <./graphics/IMC.png>]
-Overfull \hbox (6.86171pt too wide) in paragraph at lines 274--275
+Overfull \hbox (6.86171pt too wide) in paragraph at lines 296--297
 []\OT1/cmr/m/n/10 The Massey-Sain al-go-rithm was first pre-sented by Sain and 
 Mas-say in 1969[[]].
  []
@@ -471,112 +607,112 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ¦ in font cmr10!
 
-Overfull \hbox (38.73146pt too wide) detected at line 341
+Overfull \hbox (38.73146pt too wide) detected at line 363
 [] \OT1/cmr/m/n/10 = [] \OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\O
 T1/cmr/m/n/10 ) + [] []
  []
 
 [23] [24]
-<graphics/inverseSS.png, id=119, 479.99326pt x 210.18526pt>
+<graphics/inverseSS.png, id=116, 479.99326pt x 210.18526pt>
 File: graphics/inverseSS.png Graphic file (type png)
 <use graphics/inverseSS.png>
-Package pdftex.def Info: graphics/inverseSS.png  used on input line 412.
+Package pdftex.def Info: graphics/inverseSS.png  used on input line 434.
 (pdftex.def)             Requested size: 239.99603pt x 105.09236pt.
  [25 <./graphics/inverseSS.png>]
-<graphs/radiationBodeSurge.png, id=124, 526.96875pt x 395.22656pt>
+<graphs/radiationBodeSurge.png, id=121, 526.96875pt x 395.22656pt>
 File: graphs/radiationBodeSurge.png Graphic file (type png)
 <use graphs/radiationBodeSurge.png>
-Package pdftex.def Info: graphs/radiationBodeSurge.png  used on input line 435.
+Package pdftex.def Info: graphs/radiationBodeSurge.png  used on input line 457.
 
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/radiationBodeHeave.png, id=125, 526.96875pt x 395.22656pt>
+<graphs/radiationBodeHeave.png, id=122, 526.96875pt x 395.22656pt>
 File: graphs/radiationBodeHeave.png Graphic file (type png)
 <use graphs/radiationBodeHeave.png>
-Package pdftex.def Info: graphs/radiationBodeHeave.png  used on input line 436.
+Package pdftex.def Info: graphs/radiationBodeHeave.png  used on input line 458.
 
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
  [26] [27 <./graphs/radiationBodeSurge.png (PNG copy)> <./graphs/radiationBodeH
 eave.png (PNG copy)>]
-<graphics/adaptiveLaw.png, id=132, 817.8555pt x 287.8755pt>
+<graphics/adaptiveLaw.png, id=129, 817.8555pt x 287.8755pt>
 File: graphics/adaptiveLaw.png Graphic file (type png)
 <use graphics/adaptiveLaw.png>
-Package pdftex.def Info: graphics/adaptiveLaw.png  used on input line 452.
+Package pdftex.def Info: graphics/adaptiveLaw.png  used on input line 474.
 (pdftex.def)             Requested size: 408.92674pt x 143.9374pt.
 
-Overfull \hbox (63.92674pt too wide) in paragraph at lines 452--453
+Overfull \hbox (63.92674pt too wide) in paragraph at lines 474--475
  [][] 
  []
 
 [28]
-<graphs/EKFSurgeEnvelope.png, id=137, 526.96875pt x 395.22656pt>
+<graphs/EKFSurgeEnvelope.png, id=133, 526.96875pt x 395.22656pt>
 File: graphs/EKFSurgeEnvelope.png Graphic file (type png)
 <use graphs/EKFSurgeEnvelope.png>
-Package pdftex.def Info: graphs/EKFSurgeEnvelope.png  used on input line 469.
+Package pdftex.def Info: graphs/EKFSurgeEnvelope.png  used on input line 491.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/EKFHeaveEnvelope.png, id=138, 526.96875pt x 395.22656pt>
+<graphs/EKFHeaveEnvelope.png, id=134, 526.96875pt x 395.22656pt>
 File: graphs/EKFHeaveEnvelope.png Graphic file (type png)
 <use graphs/EKFHeaveEnvelope.png>
-Package pdftex.def Info: graphs/EKFHeaveEnvelope.png  used on input line 470.
+Package pdftex.def Info: graphs/EKFHeaveEnvelope.png  used on input line 492.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/EKFfrequency.png, id=139, 526.96875pt x 395.22656pt>
+<graphs/EKFfrequency.png, id=135, 526.96875pt x 395.22656pt>
 File: graphs/EKFfrequency.png Graphic file (type png)
 <use graphs/EKFfrequency.png>
-Package pdftex.def Info: graphs/EKFfrequency.png  used on input line 477.
+Package pdftex.def Info: graphs/EKFfrequency.png  used on input line 499.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
  [29 <./graphics/adaptiveLaw.png>] [30 <./graphs/EKFSurgeEnvelope.png (PNG copy
 )> <./graphs/EKFHeaveEnvelope.png (PNG copy)>] [31 <./graphs/EKFfrequency.png (
 PNG copy)>]
-<graphics/constraintsTop.png, id=150, 570.33075pt x 155.3805pt>
+<graphics/constraintsTop.png, id=147, 570.33075pt x 155.3805pt>
 File: graphics/constraintsTop.png Graphic file (type png)
 <use graphics/constraintsTop.png>
-Package pdftex.def Info: graphics/constraintsTop.png  used on input line 515.
+Package pdftex.def Info: graphics/constraintsTop.png  used on input line 537.
 (pdftex.def)             Requested size: 285.16467pt x 77.69005pt.
-<graphics/constraintsBottom.png, id=151, 695.59875pt x 170.43675pt>
+<graphics/constraintsBottom.png, id=148, 695.59875pt x 170.43675pt>
 File: graphics/constraintsBottom.png Graphic file (type png)
 <use graphics/constraintsBottom.png>
-Package pdftex.def Info: graphics/constraintsBottom.png  used on input line 516
+Package pdftex.def Info: graphics/constraintsBottom.png  used on input line 538
 .
 (pdftex.def)             Requested size: 347.79852pt x 85.21815pt.
 
-Overfull \hbox (2.79852pt too wide) in paragraph at lines 515--517
+Overfull \hbox (2.79852pt too wide) in paragraph at lines 537--539
  [] 
  []
 
 [32]
-<graphics/integralFeedback.png, id=156, 938.3055pt x 400.49625pt>
+<graphics/integralFeedback.png, id=153, 938.3055pt x 400.49625pt>
 File: graphics/integralFeedback.png Graphic file (type png)
 <use graphics/integralFeedback.png>
-Package pdftex.def Info: graphics/integralFeedback.png  used on input line 530.
+Package pdftex.def Info: graphics/integralFeedback.png  used on input line 552.
 
 (pdftex.def)             Requested size: 469.1516pt x 200.24763pt.
 
-Overfull \hbox (124.1516pt too wide) in paragraph at lines 530--531
+Overfull \hbox (124.1516pt too wide) in paragraph at lines 552--553
  [][] 
  []
 
 [33 <./graphics/constraintsTop.png> <./graphics/constraintsBottom.png>]
 [34 <./graphics/integralFeedback.png>]
 Chapter 6.
-<graphs/SS_surgeTracking.png, id=166, 526.96875pt x 395.22656pt>
+<graphs/SS_surgeTracking.png, id=162, 526.96875pt x 395.22656pt>
 File: graphs/SS_surgeTracking.png Graphic file (type png)
 <use graphs/SS_surgeTracking.png>
-Package pdftex.def Info: graphs/SS_surgeTracking.png  used on input line 552.
+Package pdftex.def Info: graphs/SS_surgeTracking.png  used on input line 574.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/SS_heaveTracking.png, id=167, 526.96875pt x 395.22656pt>
+<graphs/SS_heaveTracking.png, id=163, 526.96875pt x 395.22656pt>
 File: graphs/SS_heaveTracking.png Graphic file (type png)
 <use graphs/SS_heaveTracking.png>
-Package pdftex.def Info: graphs/SS_heaveTracking.png  used on input line 553.
+Package pdftex.def Info: graphs/SS_heaveTracking.png  used on input line 575.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/wecSimSurgeTracking.png, id=168, 526.96875pt x 395.22656pt>
+<graphs/wecSimSurgeTracking.png, id=164, 526.96875pt x 395.22656pt>
 File: graphs/wecSimSurgeTracking.png Graphic file (type png)
 <use graphs/wecSimSurgeTracking.png>
-Package pdftex.def Info: graphs/wecSimSurgeTracking.png  used on input line 562
+Package pdftex.def Info: graphs/wecSimSurgeTracking.png  used on input line 584
 .
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/wecSimHeaveTracking.png, id=169, 526.96875pt x 395.22656pt>
+<graphs/wecSimHeaveTracking.png, id=165, 526.96875pt x 395.22656pt>
 File: graphs/wecSimHeaveTracking.png Graphic file (type png)
 <use graphs/wecSimHeaveTracking.png>
-Package pdftex.def Info: graphs/wecSimHeaveTracking.png  used on input line 563
+Package pdftex.def Info: graphs/wecSimHeaveTracking.png  used on input line 585
 .
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
 [35
@@ -584,130 +720,130 @@ Package pdftex.def Info: graphs/wecSimHeaveTracking.png  used on input line 563
 ] [36 <./graphs/SS_surgeTracking.png (PNG copy)> <./graphs/SS_heaveTracking.png
  (PNG copy)>] [37 <./graphs/wecSimSurgeTracking.png (PNG copy)> <./graphs/wecSi
 mHeaveTracking.png (PNG copy)>]
-<tables/passiveResults.png, id=179, 701.019pt x 294.50024pt>
+<tables/passiveResults.png, id=176, 701.019pt x 294.50024pt>
 File: tables/passiveResults.png Graphic file (type png)
 <use tables/passiveResults.png>
-Package pdftex.def Info: tables/passiveResults.png  used on input line 584.
+Package pdftex.def Info: tables/passiveResults.png  used on input line 606.
 (pdftex.def)             Requested size: 490.70996pt x 206.14876pt.
 
-Overfull \hbox (62.57391pt too wide) in paragraph at lines 583--585
+Overfull \hbox (62.57391pt too wide) in paragraph at lines 605--607
 []  [] 
  []
 
 [38]
 
-LaTeX Warning: Reference `SaEPosition' on page 39 undefined on input line 590.
+LaTeX Warning: Reference `SaEPosition' on page 39 undefined on input line 612.
 
-<tables/SaEResults.png, id=183, 677.53125pt x 294.50024pt>
+<tables/SaEResults.png, id=180, 677.53125pt x 294.50024pt>
 File: tables/SaEResults.png Graphic file (type png)
 <use tables/SaEResults.png>
-Package pdftex.def Info: tables/SaEResults.png  used on input line 596.
+Package pdftex.def Info: tables/SaEResults.png  used on input line 618.
 (pdftex.def)             Requested size: 474.26863pt x 206.14876pt.
 
-Overfull \hbox (46.13258pt too wide) in paragraph at lines 595--597
+Overfull \hbox (46.13258pt too wide) in paragraph at lines 617--619
 []  [] 
  []
 
-<tables/SaEPercent.png, id=184, 727.518pt x 311.36325pt>
+<tables/SaEPercent.png, id=181, 727.518pt x 311.36325pt>
 File: tables/SaEPercent.png Graphic file (type png)
 <use tables/SaEPercent.png>
-Package pdftex.def Info: tables/SaEPercent.png  used on input line 603.
+Package pdftex.def Info: tables/SaEPercent.png  used on input line 625.
 (pdftex.def)             Requested size: 509.25914pt x 217.95279pt.
 
-Overfull \hbox (81.1231pt too wide) in paragraph at lines 602--604
+Overfull \hbox (81.1231pt too wide) in paragraph at lines 624--626
 []  [] 
  []
 
-<tables/SaESurgePos.png, id=185, 424.58624pt x 294.50024pt>
+<tables/SaESurgePos.png, id=182, 424.58624pt x 294.50024pt>
 File: tables/SaESurgePos.png Graphic file (type png)
 <use tables/SaESurgePos.png>
-Package pdftex.def Info: tables/SaESurgePos.png  used on input line 610.
+Package pdftex.def Info: tables/SaESurgePos.png  used on input line 632.
 (pdftex.def)             Requested size: 297.20834pt x 206.14876pt.
-<tables/SaEHeavePos.png, id=186, 424.58624pt x 294.50024pt>
+<tables/SaEHeavePos.png, id=183, 424.58624pt x 294.50024pt>
 File: tables/SaEHeavePos.png Graphic file (type png)
 <use tables/SaEHeavePos.png>
-Package pdftex.def Info: tables/SaEHeavePos.png  used on input line 611.
+Package pdftex.def Info: tables/SaEHeavePos.png  used on input line 633.
 (pdftex.def)             Requested size: 297.20834pt x 206.14876pt.
 [39 <./tables/passiveResults.png>] [40 <./tables/SaEResults.png> <./tables/SaEP
 ercent.png>] [41 <./tables/SaESurgePos.png> <./tables/SaEHeavePos.png>]
-<tables/integralControlResults.png, id=197, 643.80525pt x 294.50024pt>
+<tables/integralControlResults.png, id=194, 643.80525pt x 294.50024pt>
 File: tables/integralControlResults.png Graphic file (type png)
 <use tables/integralControlResults.png>
 Package pdftex.def Info: tables/integralControlResults.png  used on input line 
-623.
+645.
 (pdftex.def)             Requested size: 450.6606pt x 206.14876pt.
 
-Overfull \hbox (22.52455pt too wide) in paragraph at lines 622--624
+Overfull \hbox (22.52455pt too wide) in paragraph at lines 644--646
 []  [] 
  []
 
-<tables/integralControlPercent.png, id=198, 727.518pt x 311.36325pt>
+<tables/integralControlPercent.png, id=195, 727.518pt x 311.36325pt>
 File: tables/integralControlPercent.png Graphic file (type png)
 <use tables/integralControlPercent.png>
 Package pdftex.def Info: tables/integralControlPercent.png  used on input line 
-630.
+652.
 (pdftex.def)             Requested size: 509.25914pt x 217.95279pt.
 
-Overfull \hbox (81.1231pt too wide) in paragraph at lines 629--631
+Overfull \hbox (81.1231pt too wide) in paragraph at lines 651--653
 []  [] 
  []
 
-<tables/integralSurgePos.png, id=199, 424.58624pt x 294.50024pt>
+<tables/integralSurgePos.png, id=196, 424.58624pt x 294.50024pt>
 File: tables/integralSurgePos.png Graphic file (type png)
 <use tables/integralSurgePos.png>
-Package pdftex.def Info: tables/integralSurgePos.png  used on input line 637.
+Package pdftex.def Info: tables/integralSurgePos.png  used on input line 659.
 (pdftex.def)             Requested size: 297.20834pt x 206.14876pt.
-<tables/integralHeavePos.png, id=200, 424.58624pt x 294.50024pt>
+<tables/integralHeavePos.png, id=197, 424.58624pt x 294.50024pt>
 File: tables/integralHeavePos.png Graphic file (type png)
 <use tables/integralHeavePos.png>
-Package pdftex.def Info: tables/integralHeavePos.png  used on input line 638.
+Package pdftex.def Info: tables/integralHeavePos.png  used on input line 660.
 (pdftex.def)             Requested size: 297.20834pt x 206.14876pt.
 [42] [43 <./tables/integralControlResults.png> <./tables/integralControlPercent
 .png>] [44 <./tables/integralSurgePos.png> <./tables/integralHeavePos.png>]
-<graphics/wecSimImplementation.png, id=210, 858.8085pt x 257.763pt>
+<graphics/wecSimImplementation.png, id=207, 858.8085pt x 257.763pt>
 File: graphics/wecSimImplementation.png Graphic file (type png)
 <use graphics/wecSimImplementation.png>
 Package pdftex.def Info: graphics/wecSimImplementation.png  used on input line 
-651.
+673.
 (pdftex.def)             Requested size: 429.4032pt x 128.88118pt.
 
-Overfull \hbox (84.4032pt too wide) in paragraph at lines 651--652
+Overfull \hbox (84.4032pt too wide) in paragraph at lines 673--674
  [][] 
  []
 
-<tables/wecSimResults.png, id=211, 464.33475pt x 294.50024pt>
+<tables/wecSimResults.png, id=208, 464.33475pt x 294.50024pt>
 File: tables/wecSimResults.png Graphic file (type png)
 <use tables/wecSimResults.png>
-Package pdftex.def Info: tables/wecSimResults.png  used on input line 660.
+Package pdftex.def Info: tables/wecSimResults.png  used on input line 682.
 (pdftex.def)             Requested size: 325.0321pt x 206.14876pt.
 [45 <./graphics/wecSimImplementation.png>] [46 <./tables/wecSimResults.png>]
 Chapter 7.
 [47
 
 ]
-<graphs/IMCBodeSurge.png, id=223, 660.21657pt x 439.6425pt>
+<graphs/IMCBodeSurge.png, id=220, 660.21657pt x 439.6425pt>
 File: graphs/IMCBodeSurge.png Graphic file (type png)
 <use graphs/IMCBodeSurge.png>
-Package pdftex.def Info: graphs/IMCBodeSurge.png  used on input line 691.
+Package pdftex.def Info: graphs/IMCBodeSurge.png  used on input line 713.
 (pdftex.def)             Requested size: 330.10747pt x 219.82071pt.
-<graphs/IMCBodeHeave.png, id=224, 633.86812pt x 476.53032pt>
+<graphs/IMCBodeHeave.png, id=221, 633.86812pt x 476.53032pt>
 File: graphs/IMCBodeHeave.png Graphic file (type png)
 <use graphs/IMCBodeHeave.png>
-Package pdftex.def Info: graphs/IMCBodeHeave.png  used on input line 692.
+Package pdftex.def Info: graphs/IMCBodeHeave.png  used on input line 714.
 (pdftex.def)             Requested size: 316.93329pt x 238.26457pt.
  [48] [49 <./graphs/IMCBodeSurge.png (PNG copy)> <./graphs/IMCBodeHeave.png>] [
 50]
-<graphs/constraintBreakingSurge.png, id=235, 526.96875pt x 395.22656pt>
+<graphs/constraintBreakingSurge.png, id=232, 526.96875pt x 395.22656pt>
 File: graphs/constraintBreakingSurge.png Graphic file (type png)
 <use graphs/constraintBreakingSurge.png>
 Package pdftex.def Info: graphs/constraintBreakingSurge.png  used on input line
- 720.
+ 742.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
-<graphs/constraintBreakingHeave.png, id=236, 526.96875pt x 395.22656pt>
+<graphs/constraintBreakingHeave.png, id=233, 526.96875pt x 395.22656pt>
 File: graphs/constraintBreakingHeave.png Graphic file (type png)
 <use graphs/constraintBreakingHeave.png>
 Package pdftex.def Info: graphs/constraintBreakingHeave.png  used on input line
- 721.
+ 743.
 (pdftex.def)             Requested size: 263.48372pt x 197.6128pt.
  [51] [52 <./graphs/constraintBreakingSurge.png (PNG copy)> <./graphs/constrain
 tBreakingHeave.png (PNG copy)>] [53] [54]
@@ -813,53 +949,73 @@ Appendix A.
 
 ]
 Appendix B.
-[61
+(inputFile.m [61
 
-]
+]) [62]
 Appendix C.
-[62
+(SSModel_calc.m [63
 
-]
+] [64] [65] [66]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 117.
+
+
+("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 117.
+
+[67]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 186.
+
+ ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 186.
+ [68]) [69]
 Appendix D.
-[63
+(EKF_narrowband.m [70
+
+]) [71]
+Appendix E.
+[72
 
 ] (FYP_report.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 4154 strings out of 493303
- 67759 string characters out of 3130220
- 158003 words of memory out of 3000000
- 7583 multiletter control sequences out of 15000+200000
- 8113 words of font info for 29 fonts, out of 3000000 for 9000
+ 7385 strings out of 493303
+ 111568 string characters out of 3130220
+ 521639 words of memory out of 3000000
+ 10765 multiletter control sequences out of 15000+200000
+ 8448 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 51i,9n,41p,1437b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/user/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/user/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/user/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/U
-sers/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/user/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/user/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/User
-s/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.
+ 51i,9n,72p,1437b,1989s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\user\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
+crm1000.pk><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/user/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/user/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Use
+rs/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.
 pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmti12.pfb>
-Output written on FYP_report.pdf (66 pages, 2088013 bytes).
+s/cm/cmmi7.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/user/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/user/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmti10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb>
+Output written on FYP_report.pdf (74 pages, 2126570 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
+ 361 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
