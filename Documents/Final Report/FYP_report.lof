@@ -1,22 +1,30 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces A graphic of an array of 9 WaveSub devices(left)\cite {waveSub} versus the modelled WEC(right). Note that cable arms exist in the left figure but are absent in the right due to divergent design.}}{9}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Pelamis 2 (Top) and Oyster (Bottom) as installed at the Billia Croo wave test site in Orkney, Scotland \cite {europeanMarineEnergyCenter}.}}{9}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A graphic of an array of 9 WaveSub devices(left)\cite {waveSub} versus the modelled WEC(right). Note that cable arms exist in the left figure but are absent in the right due to divergent design.}}{10}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Reproduction of figure 3 from ``A Simple and Effective Real-Time Controller for Wave Energy Converters,'' \cite {ringwood}}}{11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces A reproduction of a figure from ``Wave Power,''\cite {salterDuck}. ``a. vane; b, a hollow cylindrical member; c, paraxial ridges; d, inward facing ridges on the vane; e, vertical fin between this vane and the next.''}}{12}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A reproduction of a figure from ``Wave Power,''\cite {salterDuck}. ``a. vane; b, a hollow cylindrical member; c, paraxial ridges; d, inward facing ridges on the vane; e, vertical fin between this vane and the next.''}}{13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The 6 degrees of freedom relative to a boat. For the modelled float shown in figure 1\hbox {} the Yaw axis ($y$) is coincident with the cylindrical axis of the float. Figure reproduced from ``Deepwater Drilling''\cite {dimensionsPic}.}}{18}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces The full implementation of simple and Effective Control for the WaveSub device.}}{18}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces IMC implementation using an inverted state space model.}}{20}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces The inverted state space model with the a one time-step input delay.}}{23}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Bode plots of the Surge and Heave radiation force transfer functions. Created using the Simulink bode plot block.}}{24}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces The fully implemented adaptive filter in the Simulink environment.}}{24}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces }}{24}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces }}{25}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces }}{25}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces }}{26}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The 6 degrees of freedom relative to a boat. For the modelled float shown in figure 1.2\hbox {} the Yaw axis ($y$) is coincident with the cylindrical axis of the float. Figure reproduced from ``Deepwater Drilling''\cite {dimensionsPic}.}}{20}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The full implementation of simple and Effective Control for the WaveSub device.}}{20}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces IMC implementation using an inverted state space model.}}{22}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces The inverted state space model with the a one time-step input delay.}}{25}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Bode plots of the Surge and Heave radiation force transfer functions. Created using the MATLAB bode command. }}{27}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The fully implemented adaptive filter in the Simulink environment.}}{29}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Graphs showing the Amplitude Envelope of the EKF compared to the absolute amplitude of the wave excitation force.}}{30}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Graph showing the EKF estimation of wave frequency. The input is a sinusoid of frequency 0.1 rad/s.}}{31}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Integration with adaptive law(top) and `Constraints handler' subsystem implementation(bottom).}}{33}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces One implementation of the integral feedback loop.}}{34}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces A plot of Velocity over time of the float as simulated in WecSim. Only the first few seconds are available as the system is unstable and violates physical constraints quickly.}}{27}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Tracking performance of the IMC with the State Space Model as the plant. Hs = 3, Te = 10.}}{36}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Tracking performance of the float in the wecSim environment.}}{37}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces The implementation of the integral feedback control system in the WecSim environment.}}{45}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Bode plots showing the surge-surge(top) and heave-heave(bottom) responses of the IMC controller.}}{49}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Graphs showing the position of the float in Surge (top) and Heave (bottom) during a simulation run. The input data was a sea-state with $H_s = 3$ and $T_e = 10$}}{52}
+\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

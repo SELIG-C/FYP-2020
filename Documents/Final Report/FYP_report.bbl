@@ -28,6 +28,19 @@
   \url{\url{https://marinepowersystems.co.uk/wavesub/}}
 \BIBentrySTDinterwordspacing
 
+\bibitem{ringwood}
+F.~Fusco and J.~Ringwood, ``\BIBforeignlanguage{en}{A simple and effective
+  real-time controller for wave energy converters},''
+  \emph{\BIBforeignlanguage{en}{IEEE Transactions on Sustainable Energy,
+  January}}, vol.~4, no.~1, p. 21–30, 2013.
+
+\bibitem{europeanMarineEnergyCenter}
+\BIBentryALTinterwordspacing
+{The European Marine Energy Center}, ``\BIBforeignlanguage{en}{Wave clients},''
+  2019, accessed 11/11/2019. [Online]. Available:
+  \url{\url{http://www.emec.org.uk/about-us/wave-clients/}}
+\BIBentrySTDinterwordspacing
+
 \bibitem{salterDuck}
 S.~Salter, ``\BIBforeignlanguage{en}{Wave power},''
   \emph{\BIBforeignlanguage{en}{Nature}}, vol. 249, p. 720 724, 1974.
@@ -48,28 +61,62 @@ A.~Hillis, ``\BIBforeignlanguage{en}{To appear. active control for
 {Carbon Trust}, ``Accelerating marine energy,'' Carbon Trust, Tech. Rep., Jul.
   2011.
 
-\bibitem{europeanMarineEnergyCenter}
-\BIBentryALTinterwordspacing
-{The European Marine Energy Center}, ``\BIBforeignlanguage{en}{Wave clients},''
-  2019, accessed 11/11/2019. [Online]. Available:
-  \url{\url{http://www.emec.org.uk/about-us/wave-clients/}}
-\BIBentrySTDinterwordspacing
-
 \bibitem{wecSim}
 e.~a. {National Renewable Energy Laboratory};~{National Technology and
   Engineering Solutions of Sandia, LLC (NTESS)}, ``Wec-sim acknowledgements,''
   [Online], 2014, accessed 15/04/2020.
 
-\bibitem{ringwood}
-F.~Fusco and J.~Ringwood, ``\BIBforeignlanguage{en}{A simple and effective
-  real-time controller for wave energy converters},''
-  \emph{\BIBforeignlanguage{en}{IEEE Transactions on Sustainable Energy,
-  January}}, vol.~4, no.~1, p. 21–30.
+\bibitem{abdelkhalik2017a}
+O.~Abdelkhalik, ``\BIBforeignlanguage{es}{Multiresonant feedback control of a
+  three-degree-of-freedom wave energy converter},''
+  \emph{\BIBforeignlanguage{es}{IEEE TRANSACTIONS ON SUSTAINABLE ENERGY}},
+  vol.~8, no.~4, p. 1518–1527.
+
+\bibitem{abdelkhalik2018a}
+------, ``\BIBforeignlanguage{es}{Control of three degrees-of-freedom wave
+  energy converters using pseudo-spectral methods},''
+  \emph{\BIBforeignlanguage{es}{ASME. J. Dyn. Sys., Meas., Control}}, vol. 140,
+  no.~7, p. 074501 9.
+
+\bibitem{gorinevsky2005a}
+\BIBentryALTinterwordspacing
+D.~Gorinevsky, ``\BIBforeignlanguage{en}{Ee392m: Control engineering in
+  industry},'' accessed 26 November 2019]. [Online]. Available:
+  \url{https://web.stanford.edu/class/archive/ee/ee392m/ee392m.1056/}
+\BIBentrySTDinterwordspacing
 
 \bibitem{salterRamble}
 S.~Salter, ``\BIBforeignlanguage{en}{Wave energy: Nostalgic ramblings, future
   hopes and heretical suggestions},'' \emph{\BIBforeignlanguage{en}{J. Ocean
   Eng. Mar. Energy}}, vol.~2, no.~4, p. 399–428, 2016.
+
+\bibitem{evans1979a}
+D.~Evans, D.~Jeffrey, S.~Salter, and J.~Taylor,
+  ``\BIBforeignlanguage{en}{Submerged cylinder wave energy device: theory and
+  experiment},'' \emph{\BIBforeignlanguage{en}{Applied Ocean Research}},
+  vol.~1, no.~1, p. 1–12.
+
+\bibitem{evans1976a}
+D.~Evans, ``\BIBforeignlanguage{en}{A theory for wave-power absorption by
+  oscillating bodies},'' \emph{\BIBforeignlanguage{en}{Journal of Fluid
+  Mechanics}}, vol.~77, no.~1, p. 1–25.
+
+\bibitem{andyModelErrors}
+A.~Hillis and T.~Appear, \emph{The impact of modelling and prediction errors on
+  the performance of optimally controlled multi-DOF wave energy
+  converters}.\hskip 1em plus 0.5em minus 0.4em\relax Bath: s.n.
+
+\bibitem{nguyen2018a}
+H.~Nguyen and P.~Tona, ``\BIBforeignlanguage{en}{Wave excitation force
+  estimation for wave energy converters of the point-absorber type},''
+  \emph{\BIBforeignlanguage{en}{IEEE TRANSACTIONS ON CONTROL SYSTEMS
+  TECHNOLOGY}}, vol.~26, no.~6, p. 2173–2181.
+
+\bibitem{EWTEC}
+\emph{Proceedings of the European Wave and Tidal Energy Conference},
+  no.~13.\hskip 1em plus 0.5em minus 0.4em\relax Napoli, Italy: Technical
+  Comittee of the European Wave and Tidal Energy Conference, Sep. 2019, iSSN
+  2309-1983.
 
 \bibitem{OGPM}
 \BIBentryALTinterwordspacing
@@ -89,11 +136,6 @@ J.~H. G.~M. Alves, M.~L. Banner, and I.~R. Young, ``Revisiting the
   \url{https://doi.org/10.1175/1520-0485(2003)033<1301:RTPALF>2.0.CO;2}
 \BIBentrySTDinterwordspacing
 
-\bibitem{AndyModelErrors}
-A.~Hillis and T.~Appear, \emph{The impact of modelling and prediction errors on
-  the performance of optimally controlled multi-DOF wave energy
-  converters}.\hskip 1em plus 0.5em minus 0.4em\relax Bath: s.n.
-
 \bibitem{OGMassaySain}
 M.~{Sain} and J.~{Massey}, ``Invertibility of linear time-invariant dynamical
   systems,'' \emph{IEEE Transactions on Automatic Control}, vol.~14, no.~2, pp.
@@ -105,5 +147,10 @@ S.~Sundaram, ``Inversion of linear systems,'' Oct. 2004, iTR Seminar,
   University of Illinois at Urbana-Champaign. [Online]. Available:
   \url{https://engineering.purdue.edu/~sundara2/talks/invert.pdf}
 \BIBentrySTDinterwordspacing
+
+\bibitem{EKF}
+F.~Fusco, ``Real-time forecasting and control foroscillating wave energy
+  devices,'' Ph.D. dissertation, National University of Ireland Meynooth, Jul.
+  2012.
 
 \end{thebibliography}

@@ -22,15 +22,15 @@ for ii = 1:length(TeVector)
         sim('position_control_model.slx');
         powerMatrix(yy,ii) = mean(totalPower);
         if abs(max(surgePos))>abs(min(surgePos))
-            surgePosAmp = [surgePosAmp, abs(max(surgePos))];
+            surgePosAmp(yy,ii) = abs(max(surgePos));
         else
-            surgePosAmp = [surgePosAmp, abs(min(surgePos))];
+            surgePosAmp(yy,ii) = abs(min(surgePos));
         end
         
         if abs(max(heavePos))>abs(min(heavePos))
-            heavePosAmp = [heavePosAmp, abs(max(heavePos))];
+            heavePosAmp(yy,ii) = abs(max(heavePos));
         else
-            heavePosAmp = [heavePosAmp, abs(min(heavePos))];
+            heavePosAmp(yy,ii) = abs(min(heavePos));
         end
         %save(['Results/intPosFeedback_',num2str(Te),'_',num2str(Hs),'.mat'],'logsout')
         %figure
